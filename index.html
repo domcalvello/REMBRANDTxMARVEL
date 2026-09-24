@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#561d25">
+  <meta name="description" content="Rembrandt × Marvel — an imagined exhibition of a lost collection uncovered in 2020.">
+  <title>Rembrandt × Marvel — The Lost Collection</title>
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="icon" type="image/webp" href="assets/media/rembrandtfavicon.webp">
+  <link rel="preload" href="assets/fonts/Atavian-REGULAR.otf" as="font" type="font/otf" crossorigin>
+  <link rel="preload" href="assets/media/remxmarvel-hero.webp" as="image" type="image/webp" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#exhibition">Skip to exhibition</a>
+
+  <header class="site-nav" data-nav>
+    <a class="wordmark" href="#top" aria-label="Rembrandt and Marvel, back to top">Rembrandt <span aria-hidden="true">×</span> Marvel</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+      <span>Menu</span>
+      <span class="nav-toggle__line" aria-hidden="true"></span>
+    </button>
+    <nav id="primary-nav" class="nav-links" aria-label="Exhibition navigation">
+      <a href="#exhibition">Exhibition</a>
+      <a href="#discovery">The Discovery</a>
+      <a href="#collection">Collection</a>
+      <a href="#relics">Relics</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="Rembrandt × Marvel exhibition film">
+      <video class="hero__media" autoplay muted loop playsinline preload="metadata" poster="assets/media/remxmarvel-hero.webp" aria-label="Animated title image for the Rembrandt × Marvel exhibition">
+        <source src="assets/media/remxmarvel-hero-video.webm" type="video/webm">
+        <img src="assets/media/remxmarvel-hero.webp" width="1916" height="821" alt="Rembrandt × Marvel exhibition title beside a portrait of Rembrandt">
+      </video>
+      <div class="hero__veil" aria-hidden="true"></div>
+      <a class="scroll-cue" href="#exhibition">
+        <span>Enter the exhibition</span>
+        <span class="scroll-cue__line" aria-hidden="true"></span>
+      </a>
+    </section>
+
+    <section id="exhibition" class="introduction room room--walnut" data-room="dark">
+      <div class="introduction__portrait reveal">
+        <img src="assets/support/rembrandtselfportrait1650.webp" width="980" height="1200" alt="Rembrandt self-portrait from 1650" loading="eager" decoding="async">
+        <p class="object-label">Rembrandt van Rijn<br><span>Self-Portrait, 1650</span></p>
+      </div>
+      <div class="introduction__copy reveal">
+        <h1>A collection sealed from history.</h1>
+        <p class="introduction__lead">In 2020, a group of paintings attributed to Rembrandt van Rijn was uncovered inside a wall in the attic of a private European residence.</p>
+        <p>The works appear to record the passage of American mutants through Europe in 1650. Their frames are attributed to Herman Doomer, the celebrated Amsterdam woodworker whose craft gave each sitter a distinct architectural presence.</p>
+        <p>What follows is an imagined exhibition of that lost encounter: strange abilities rendered with sober light, human gravity, and the patient scrutiny of portraiture.</p>
+      </div>
+    </section>
+
+    <section id="discovery" class="archive room room--parchment" data-room="light">
+      <header class="archive__header reveal">
+        <h2>Recovered from a wall. Rebuilt in public.</h2>
+        <p>From the first torchlit glimpse to the final gallery placement, the collection passed through a chain of conservators, frame specialists, and scholars.</p>
+      </header>
+
+      <div class="archive-grid">
+        <figure class="archive-item archive-item--discovery reveal">
+          <img src="assets/support/remxmarvelreveal.webp" width="820" height="1024" alt="Framed paintings discovered inside a damaged attic wall, seen through a live phone broadcast" loading="lazy" decoding="async">
+          <figcaption>
+            <h3>Discovery</h3>
+            <p>The concealed works were found in 2020, stacked behind lath and plaster in the attic of a private European residence.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="archive-item archive-item--conservation reveal">
+          <img src="assets/support/remxmarvelrestore.webp" width="820" height="1024" alt="A fine art conservator treating a portrait on a worktable" loading="lazy" decoding="async">
+          <figcaption>
+            <h3>Painting conservation</h3>
+            <p>Fine arts conservator Alexandra von Hawk led the painstaking treatment of the surfaces under the fictional global Art Conservation Project.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="archive-item archive-item--frames reveal">
+          <img src="assets/support/remxmarvelframerestore.webp" width="923" height="1152" alt="Two frame conservators examining and restoring a gilded wooden frame" loading="lazy" decoding="async">
+          <figcaption>
+            <h3>Frame restoration</h3>
+            <p>Master frame conservators restored Doomer’s carved surrounds in the fictional account with the involvement of The Metropolitan Museum of Art in New York.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="archive-item archive-item--scholar reveal">
+          <img src="assets/support/remxmarvelgallery.webp" width="922" height="1152" alt="Eric Jan Sluijter examining the arrangement of framed paintings on a gallery wall" loading="lazy" decoding="async">
+          <figcaption>
+            <h3>Eric Jan Sluijter</h3>
+            <p>The exhibition consulted the Rembrandt scholar on attribution, historical context, and the unusual assembly of sitters recorded across the works.</p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="collection" class="collection room room--velvet" data-room="dark">
+      <header class="collection__header reveal">
+        <h2>The paintings</h2>
+        <p>Portraiture gives the impossible a human scale. Insignia recede; posture, gesture, cloth, metal, and light become evidence.</p>
+      </header>
+
+      <article class="artwork artwork--left reveal" id="charles-xavier">
+        <div class="artwork__image artwork__image--wide">
+          <picture>
+            <source media="(max-width: 720px)" srcset="assets/paintings/mobile/Professor%20X.webp" type="image/webp">
+            <img src="assets/paintings/Professor%20X.webp" width="1179" height="1334" alt="Framed portrait of Charles Xavier seated formally in a wooden wheelchair" loading="lazy" decoding="async">
+          </picture>
+        </div>
+        <div class="artwork__text">
+          <h3><span class="title-line">Portrait of Charles</span><span class="title-line">Xavier, <span class="descriptor">Scholar</span></span></h3>
+          <p class="sitter-name">Charles Francis Xavier</p>
+          <p>Xavier is depicted without insignia or weapon, seated formally against a restrained field of warm light. The composition places intellectual authority above physical spectacle, presenting the leader of the travelers as scholar, teacher and statesman.</p>
+          <blockquote class="studio-note">
+            <p>“His body keeps its chair, yet the room itself seems to belong to his mind.”</p>
+            <cite>Imagined studio note</cite>
+          </blockquote>
+        </div>
+      </article>
+
+      <article class="artwork artwork--right reveal" id="beast">
+        <div class="artwork__image">
+          <picture>
+            <source media="(max-width: 720px)" srcset="assets/paintings/mobile/Beast.webp" type="image/webp">
+            <img src="assets/paintings/Beast.webp" width="1122" height="1402" alt="Ornately framed portrait of Henry McCoy with spectacles, books, and candlelight" loading="lazy" decoding="async">
+          </picture>
+        </div>
+        <div class="artwork__text">
+          <h3>Portrait of Henry McCoy, Called the Beast</h3>
+          <p class="sitter-name">Henry McCoy</p>
+          <p>McCoy appears among books by candlelight, his formidable form deliberately contrasted with the habits of a scholar. Rembrandt’s light settles most strongly across the sitter’s brow and hands, emphasizing thought over physical strength.</p>
+          <blockquote class="studio-note">
+            <p>“They call him beast, though I have met few men so governed by reason.”</p>
+            <cite>Imagined studio note</cite>
+          </blockquote>
+        </div>
+      </article>
+
+      <article class="artwork artwork--monument reveal" id="storm">
+        <div class="artwork__image">
+          <picture>
+            <source media="(max-width: 720px)" srcset="assets/paintings/mobile/Storm.webp" type="image/webp">
+            <img src="assets/paintings/Storm.webp" width="1122" height="1402" alt="Elaborately gilded framed portrait of Ororo Munroe in pale ceremonial dress" loading="lazy" decoding="async">
+          </picture>
+        </div>
+        <div class="artwork__text artwork__text--monument">
+          <div>
+            <h3>Portrait of Ororo Munroe</h3>
+            <p class="sitter-name">Ororo Munroe</p>
+            <p>Munroe is shown frontally in pale ceremonial dress, her white hair and clouded eyes emerging dramatically from the dark field behind her. The elaborate gilded frame reinforces a portrait more reminiscent of nobility than military service.</p>
+          </div>
+          <blockquote class="studio-note studio-note--large">
+            <p>“Her stillness carries the warning of a sky before thunder.”</p>
+            <cite>Imagined studio note</cite>
+          </blockquote>
+        </div>
+      </article>
+
+      <article class="artwork artwork--left artwork--close reveal" id="colossus">
+        <div class="artwork__image">
+          <picture>
+            <source media="(max-width: 720px)" srcset="assets/paintings/mobile/Colossus.webp" type="image/webp">
+            <img src="assets/paintings/Colossus.webp" width="1122" height="1402" alt="Dark carved frame surrounding a portrait of Piotr Rasputin with metallic skin and a white ruff" loading="lazy" decoding="async">
+          </picture>
+        </div>
+        <div class="artwork__text">
+          <h3>Portrait of Piotr Rasputin, the Man of Steel</h3>
+          <p class="sitter-name">Piotr Nikolaievitch Rasputin</p>
+          <p>Rasputin’s metallic body is rendered with the discipline normally reserved for polished armor. Yet his relaxed posture and elaborate collar turn the spectacle of his transformation into a formal portrait of dignity and restraint.</p>
+          <blockquote class="studio-note">
+            <p>“Iron has the greater weight, but gentleness is the harder thing to paint.”</p>
+            <cite>Imagined studio note</cite>
+          </blockquote>
+        </div>
+      </article>
+
+      <article class="artwork artwork--right artwork--airy reveal" id="rogue">
+        <div class="artwork__image">
+          <picture>
+            <source media="(max-width: 720px)" srcset="assets/paintings/mobile/Rogue.webp" type="image/webp">
+            <img src="assets/paintings/Rogue.webp" width="1122" height="1402" alt="Dark framed portrait of Anna Marie in green and ochre garments with heavy gloves" loading="lazy" decoding="async">
+          </picture>
+        </div>
+        <div class="artwork__text">
+          <h3>Portrait of Anna Marie, Called Rogue</h3>
+          <p class="sitter-name">Anna Marie</p>
+          <p>Anna Marie stands in restrained green and ochre garments, the gloves becoming the portrait’s most consequential detail. What first appears to be ordinary dress gradually reveals itself as protection—for both sitter and observer.</p>
+          <blockquote class="studio-note studio-note--large">
+            <p>“She keeps her hands covered not for fear of the world, but from fear of what her touch may take from it.”</p>
+            <cite>Imagined studio note</cite>
+          </blockquote>
+        </div>
+      </article>
+    </section>
+
+    <!-- impeccable-disable cramped-padding -- This deliberate full-bleed rupture must meet every viewport edge. -->
+    <section class="adamantium" data-room="rupture" aria-labelledby="adamantium-title">
+      <img src="assets/support/remxmarvel-claw1.webp" width="1376" height="768" alt="Three diagonal claw slashes torn through a dark brown canvas" loading="lazy" decoding="async">
+      <div class="adamantium__shade" aria-hidden="true"></div>
+      <div class="adamantium__copy reveal">
+        <h2 id="adamantium-title">ADAMANTIUM UPON THE CANVAS</h2>
+        <blockquote>“I asked him of his birthplace. The question wounded him more deeply than any blade.”</blockquote>
+      </div>
+    </section>
+
+    <section class="diptych room room--oxblood" data-room="dark" aria-labelledby="logan-pair-title">
+      <header class="diptych__header reveal">
+        <h2 id="logan-pair-title">Two portraits of Logan</h2>
+        <p>One sitter, divided by what the world sees first.</p>
+      </header>
+
+      <div class="diptych__paintings">
+        <article class="paired-work reveal">
+          <div class="paired-work__image">
+            <picture>
+              <source media="(max-width: 720px)" srcset="assets/paintings/mobile/Wolverine.webp" type="image/webp">
+              <img src="assets/paintings/Wolverine.webp" width="1162" height="1462" alt="Framed portrait of Logan in yellow and dark blue with three metal claws exposed" loading="lazy" decoding="async">
+            </picture>
+          </div>
+          <h3>Portrait of Logan, Called Wolverine</h3>
+          <p class="sitter-name">Logan</p>
+          <p>Logan is portrayed in yellow and dark blue with his claws deliberately exposed, an unusual decision in an otherwise conventional seated portrait. Rembrandt places the weapons directly in the light while allowing much of the sitter’s body to disappear into shadow.</p>
+          <blockquote class="studio-note">
+            <p>“He carries the manner of a man who expects every room eventually to become a battlefield.”</p>
+            <cite>Imagined studio note</cite>
+          </blockquote>
+        </article>
+
+        <article class="paired-work paired-work--second reveal">
+          <div class="paired-work__image">
+            <picture>
+              <source media="(max-width: 720px)" srcset="assets/paintings/mobile/Logan.webp" type="image/webp">
+              <img src="assets/paintings/Logan.webp" width="1123" height="1401" alt="Framed portrait of Logan without weapons or uniform, wearing dark seventeenth-century clothing" loading="lazy" decoding="async">
+            </picture>
+          </div>
+          <h3>Portrait of Logan</h3>
+          <p class="sitter-name">Logan</p>
+          <p>Painted without weapons or recognizable uniform, the second portrait strips Logan of the identity presented in the preceding work. His expression becomes the subject: guarded, exhausted and intensely human.</p>
+        </article>
+      </div>
+
+      <blockquote class="logan-quote reveal">
+        <p>“In the first portrait I painted what men fear. In the second, I painted the man who must live with it.”</p>
+        <cite>Imagined Rembrandt studio note</cite>
+      </blockquote>
+    </section>
+
+    <section class="collection collection--late room room--velvet-deep" data-room="dark" aria-label="The remaining collection">
+      <article class="artwork artwork--left reveal" id="cyclops">
+        <div class="artwork__image">
+          <picture>
+            <source media="(max-width: 720px)" srcset="assets/paintings/mobile/Cyclops.webp" type="image/webp">
+            <img src="assets/paintings/Cyclops.webp" width="1086" height="1448" alt="Dark framed portrait of Scott Summers in armor and cloak wearing a crimson mechanical visor" loading="lazy" decoding="async">
+          </picture>
+        </div>
+        <div class="artwork__text">
+          <h3>Portrait of Scott Summers, Captain</h3>
+          <p class="sitter-name">Scott Summers</p>
+          <p>Summers appears armored and cloaked, his eyes concealed behind an unfamiliar mechanical visor emitting a narrow crimson light. His raised hand suggests adjustment rather than aggression, presenting the device as restraint rather than weapon.</p>
+          <blockquote class="studio-note studio-note--large">
+            <p>“The curious instrument across his eyes is not made so that he may see, but so that others may safely look upon him.”</p>
+            <cite>Imagined studio note</cite>
+          </blockquote>
+        </div>
+      </article>
+
+      <article class="artwork artwork--monument artwork--night reveal" id="nightcrawler">
+        <div class="artwork__image">
+          <picture>
+            <source media="(max-width: 720px)" srcset="assets/paintings/mobile/Nightcrawler.webp" type="image/webp">
+            <img src="assets/paintings/Nightcrawler.webp" width="1123" height="1400" alt="Wide gilded frame surrounding a composed portrait of Kurt Wagner with blue skin and a sword" loading="lazy" decoding="async">
+          </picture>
+        </div>
+        <div class="artwork__text artwork__text--monument">
+          <div>
+            <h3>Portrait of Kurt Wagner, Called Nightcrawler</h3>
+            <p class="sitter-name">Kurt Wagner</p>
+            <p>Wagner is painted with none of the theatrical alarm his appearance might have invited from a seventeenth-century observer. His direct gaze and composed stance make the extraordinary physical traits almost secondary to the sitter himself.</p>
+          </div>
+          <blockquote class="studio-note studio-note--large">
+            <p>“The eye first sees a devil. Remain with him a little longer and the error belongs to the eye.”</p>
+            <cite>Imagined studio note</cite>
+          </blockquote>
+        </div>
+      </article>
+
+      <article class="artwork artwork--right artwork--airy reveal" id="gambit">
+        <div class="artwork__image">
+          <picture>
+            <source media="(max-width: 720px)" srcset="assets/paintings/mobile/Gambit.webp" type="image/webp">
+            <img src="assets/paintings/Gambit.webp" width="1122" height="1402" alt="Dark framed portrait of Remy LeBeau holding a softly glowing playing card" loading="lazy" decoding="async">
+          </picture>
+        </div>
+        <div class="artwork__text">
+          <h3>Portrait of Remy LeBeau, Called Gambit</h3>
+          <p class="sitter-name">Remy LeBeau</p>
+          <p>LeBeau holds a single playing card between gloved fingers as violet light gathers around its edge. Rather than explain the phenomenon, the portrait preserves the moment immediately before its purpose becomes apparent.</p>
+          <blockquote class="studio-note">
+            <p>“He handles cards as another man handles a pistol: lightly, confidently, and never without intention.”</p>
+            <cite>Imagined studio note</cite>
+          </blockquote>
+        </div>
+      </article>
+
+      <article class="artwork artwork--monument reveal" id="magneto">
+        <div class="artwork__image">
+          <picture>
+            <source media="(max-width: 720px)" srcset="assets/paintings/mobile/Magneto.webp" type="image/webp">
+            <img src="assets/paintings/Magneto.webp" width="1125" height="1398" alt="Dark ornate framed portrait of Eric Lensherr in crimson armor with one hand raised" loading="lazy" decoding="async">
+          </picture>
+        </div>
+        <div class="artwork__text artwork__text--monument">
+          <div>
+            <h3>Portrait of Eric Lensherr, Called Magneto</h3>
+            <p class="sitter-name">Eric Lensherr</p>
+            <p>Lensherr is shown standing in crimson armor, one hand raised as though addressing an unseen audience. His posture is neither defensive nor openly hostile; the painting instead presents a man absolutely convinced of his own authority.</p>
+          </div>
+          <blockquote class="studio-note studio-note--large">
+            <p>“Some men enter a room and ask to be heard. He enters already certain that history is listening.”</p>
+            <cite>Imagined studio note</cite>
+          </blockquote>
+        </div>
+      </article>
+
+      <article class="artwork artwork--final reveal" id="juggernaut">
+        <div class="artwork__image">
+          <picture>
+            <source media="(max-width: 720px)" srcset="assets/paintings/mobile/Juggernaut.webp" type="image/webp">
+            <img src="assets/paintings/Juggernaut.webp" width="1054" height="1492" alt="Broad gilded framed portrait of Cain Marko in a massive crimson helmet and armor" loading="lazy" decoding="async">
+          </picture>
+        </div>
+        <div class="artwork__text">
+          <h3>Portrait of Cain Marko, Called Juggernaut</h3>
+          <p class="sitter-name">Cain Marko</p>
+          <p>Marko fills nearly the entire painted field, his enormous helmet and deep crimson armor compressing the space around him. Unlike the more elaborate portraits preceding it, the work relies upon mass, symmetry and direct confrontation.</p>
+          <blockquote class="studio-note studio-note--large">
+            <p>“There was little room left upon the canvas once the man had entered it.”</p>
+            <cite>Imagined studio note</cite>
+          </blockquote>
+        </div>
+      </article>
+    </section>
+
+    <section id="relics" class="relics room room--ivory" data-room="light">
+      <header class="relics__header reveal">
+        <h2>Relics</h2>
+        <p>Removed from painted shadow, two objects enter the bright neutrality of the contemporary museum.</p>
+      </header>
+
+      <div class="relics__grid">
+        <figure class="relic reveal">
+          <img src="assets/support/remxmarvel-juggrelic.webp" width="864" height="1224" alt="Juggernaut helmet displayed inside a glass museum case" loading="lazy" decoding="async">
+          <figcaption>
+            <strong>Juggernaut</strong>
+            <span>Helmet</span>
+            <small>Cain Marko</small>
+          </figcaption>
+        </figure>
+        <figure class="relic reveal">
+          <img src="assets/support/remxmarvel-cyclopsrelic.webp" width="896" height="1195" alt="Cyclops field outfit with visor, cape, armor, and glove displayed inside a glass museum case" loading="lazy" decoding="async">
+          <figcaption>
+            <strong>Cyclops</strong>
+            <span>Field Outfit</span>
+            <small>Scott Summers</small>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="site-footer__mark" href="#top">Rembrandt <span aria-hidden="true">×</span> Marvel</a>
+    <p>An imagined exhibition concept by Domenick Calvello.</p>
+    <a class="back-to-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+  </footer>
+</body>
+</html>
