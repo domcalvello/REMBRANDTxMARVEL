@@ -379,8 +379,8 @@ p {
   grid-template-columns: minmax(18rem, 0.82fr) minmax(26rem, 1.18fr);
   align-items: center;
   gap: clamp(3rem, 8vw, 9rem);
-  min-height: 100svh;
-  padding: clamp(8rem, 12vw, 13rem) max(4vw, calc((100vw - 96rem) / 2));
+  min-height: 90svh;
+  padding: clamp(6rem, 8vw, 9rem) max(4vw, calc((100vw - 96rem) / 2));
 }
 
 .introduction__portrait {
@@ -429,7 +429,7 @@ p {
 }
 
 .archive {
-  padding: clamp(8rem, 12vw, 14rem) 0 clamp(9rem, 14vw, 16rem);
+  padding: clamp(6rem, 8vw, 9rem) 0 clamp(6rem, 9vw, 10rem);
 }
 
 .archive__header,
@@ -445,7 +445,7 @@ p {
   grid-template-columns: 1.25fr 0.75fr;
   align-items: end;
   gap: 6vw;
-  margin-bottom: clamp(6rem, 10vw, 11rem);
+  margin-bottom: clamp(4rem, 6vw, 7rem);
 }
 
 .archive__header h2 {
@@ -462,7 +462,7 @@ p {
 .archive-grid {
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
-  row-gap: clamp(7rem, 13vw, 14rem);
+  row-gap: clamp(5rem, 8vw, 9rem);
   width: min(94vw, 105rem);
   margin-inline: auto;
 }
@@ -509,7 +509,7 @@ p {
 
 .archive-item--conservation {
   grid-column: 8 / span 4;
-  margin-top: 18vw;
+  margin-top: 10vw;
 }
 
 .archive-item--frames {
@@ -518,11 +518,11 @@ p {
 
 .archive-item--scholar {
   grid-column: 7 / span 6;
-  margin-top: 7vw;
+  margin-top: 4vw;
 }
 
 .collection {
-  padding: clamp(9rem, 14vw, 16rem) 0 1rem;
+  padding: clamp(6rem, 9vw, 10rem) 0 1rem;
   overflow: clip;
 }
 
@@ -531,7 +531,7 @@ p {
   grid-template-columns: 1fr 0.68fr;
   align-items: end;
   gap: 8vw;
-  margin-bottom: clamp(7rem, 12vw, 14rem);
+  margin-bottom: clamp(4.5rem, 7vw, 8rem);
 }
 
 .collection__header h2,
@@ -551,9 +551,9 @@ p {
   align-items: center;
   gap: clamp(3rem, 7vw, 9rem);
   width: min(94vw, 100rem);
-  min-height: 112svh;
+  min-height: 96svh;
   margin-inline: auto;
-  padding: clamp(7rem, 12vw, 13rem) 0;
+  padding: clamp(4.5rem, 7vw, 8rem) 0;
 }
 
 .artwork::before {
@@ -659,7 +659,7 @@ p {
 
 .studio-note,
 .logan-quote {
-  margin: clamp(3.5rem, 6vw, 6.5rem) 0 0;
+  margin: clamp(3rem, 4.5vw, 5rem) 0 0;
   color: #efd6a6;
 }
 
@@ -686,7 +686,7 @@ p {
 }
 
 .studio-note--large {
-  margin-top: clamp(4rem, 8vw, 9rem);
+  margin-top: clamp(3.5rem, 6vw, 7rem);
 }
 
 .studio-note--large p {
@@ -698,7 +698,7 @@ p {
   flex-direction: column;
   width: min(95vw, 92rem);
   min-height: auto;
-  padding-block: clamp(10rem, 16vw, 18rem);
+  padding-block: clamp(7rem, 10vw, 11rem);
 }
 
 .artwork--monument::before {
@@ -726,11 +726,11 @@ p {
 }
 
 .artwork--close {
-  padding-top: clamp(5rem, 8vw, 8rem);
+  padding-top: clamp(4rem, 6vw, 6rem);
 }
 
 .artwork--airy {
-  padding-block: clamp(12rem, 18vw, 21rem);
+  padding-block: clamp(8rem, 12vw, 13rem);
 }
 
 .adamantium {
@@ -784,7 +784,7 @@ p {
 }
 
 .diptych {
-  padding: clamp(9rem, 14vw, 16rem) 0 clamp(11rem, 16vw, 19rem);
+  padding: clamp(6rem, 9vw, 10rem) 0 clamp(7rem, 10vw, 12rem);
 }
 
 .diptych__header {
@@ -792,7 +792,7 @@ p {
   align-items: end;
   justify-content: space-between;
   gap: 4rem;
-  margin-bottom: clamp(6rem, 9vw, 10rem);
+  margin-bottom: clamp(4rem, 6vw, 7rem);
 }
 
 .diptych__header h2,
@@ -826,7 +826,7 @@ p {
 }
 
 .paired-work--second {
-  padding-top: 9vw;
+  padding-top: 5vw;
 }
 
 .paired-work--second .paired-work__image img {
@@ -835,7 +835,7 @@ p {
 
 .logan-quote {
   width: min(86vw, 76rem);
-  margin: clamp(10rem, 18vw, 19rem) auto 0;
+  margin: clamp(7rem, 10vw, 11rem) auto 0;
   text-align: center;
 }
 
@@ -849,18 +849,18 @@ p {
 }
 
 .collection--late {
-  padding-top: clamp(7rem, 10vw, 11rem);
+  padding-top: clamp(5rem, 7vw, 8rem);
 }
 
 .artwork--night {
-  padding-top: clamp(8rem, 12vw, 14rem);
+  padding-top: clamp(6rem, 9vw, 10rem);
 }
 
 .artwork--final {
   grid-template-columns: minmax(25rem, 0.88fr) minmax(24rem, 1.12fr);
   width: min(92vw, 94rem);
-  min-height: 125svh;
-  padding-bottom: clamp(13rem, 19vw, 22rem);
+  min-height: 108svh;
+  padding-bottom: clamp(8rem, 12vw, 14rem);
 }
 
 .artwork--final::before {
@@ -877,7 +877,7 @@ p {
 }
 
 .relics {
-  padding: clamp(9rem, 13vw, 14rem) 0 clamp(8rem, 12vw, 13rem);
+  padding: clamp(6rem, 8vw, 9rem) 0;
 }
 
 .relics__header {
@@ -885,7 +885,7 @@ p {
   grid-template-columns: 1fr 0.68fr;
   align-items: end;
   gap: 8vw;
-  margin-bottom: clamp(6rem, 10vw, 11rem);
+  margin-bottom: clamp(4rem, 6vw, 7rem);
 }
 
 .relics__header h2,
@@ -1186,7 +1186,7 @@ p {
 
   .introduction {
     min-height: auto;
-    padding: 8rem 1.25rem 9rem;
+    padding: 6rem 1.25rem 7rem;
   }
 
   .introduction__portrait {
@@ -1198,7 +1198,7 @@ p {
   }
 
   .archive {
-    padding: 8rem 0 10rem;
+    padding: 6rem 0 7rem;
   }
 
   .archive__header,
@@ -1216,7 +1216,7 @@ p {
 
   .archive-item {
     width: calc(100vw - 2.5rem);
-    margin: 0 auto 8rem;
+    margin: 0 auto 5rem;
   }
 
   .archive-item--conservation,
@@ -1236,20 +1236,20 @@ p {
   }
 
   .collection {
-    padding-top: 9rem;
+    padding-top: 6rem;
   }
 
   .collection__header {
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
   }
 
   .artwork,
   .artwork--right,
   .artwork--final {
-    gap: 3.5rem;
+    gap: 2.5rem;
     width: calc(100vw - 2.5rem);
     min-height: auto;
-    padding: 6.5rem 0 8rem;
+    padding: 4.5rem 0 5.5rem;
   }
 
   .artwork--right .artwork__image {
@@ -1280,7 +1280,7 @@ p {
 
   .artwork--monument {
     width: 100%;
-    padding: 9rem 1.25rem;
+    padding: 6rem 1.25rem;
   }
 
   .artwork__text--monument {
@@ -1290,7 +1290,7 @@ p {
 
   .studio-note,
   .studio-note--large {
-    margin-top: 4rem;
+    margin-top: 3rem;
   }
 
   .studio-note p,
@@ -1315,13 +1315,13 @@ p {
   }
 
   .diptych {
-    padding: 8rem 0 12rem;
+    padding: 6rem 0 8rem;
   }
 
   .diptych__header {
     align-items: start;
     flex-direction: column;
-    margin-bottom: 5rem;
+    margin-bottom: 3.5rem;
   }
 
   .diptych__paintings,
@@ -1331,7 +1331,7 @@ p {
   }
 
   .paired-work {
-    padding-bottom: 7rem;
+    padding-bottom: 4.5rem;
   }
 
   .paired-work--second {
@@ -1340,7 +1340,7 @@ p {
 
   .logan-quote {
     width: calc(100vw - 2.5rem);
-    margin-top: 5rem;
+    margin-top: 3.5rem;
   }
 
   .logan-quote p {
@@ -1352,15 +1352,15 @@ p {
   }
 
   .artwork--final {
-    padding-bottom: 12rem;
+    padding-bottom: 8rem;
   }
 
   .relics {
-    padding: 8rem 0 9rem;
+    padding: 6rem 0 7rem;
   }
 
   .relics__grid {
-    gap: 6rem;
+    gap: 4rem;
   }
 
   .site-footer {
